@@ -13,7 +13,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="section-text text-justify">
-            As a passionate Full Stack Developer, my true enthusiasm ignites when diving into the vibrant world of frontend development! I'm absolutely thrilled by the challenge of transforming complex ideas into captivating, seamless, and high-performance user experiences. While I confidently handle backend logic and APIs to ensure data integrity and functionality, my core strength and excitement lie in the art of crafting stunning, interactive interfaces. I'm actively seeking opportunities to leverage my advanced frontend skills to build truly extraordinary digital products.
+            Tech-savvy and adaptable Computer Science graduate with a strong interest in building effective and scalable software solutions. Passionate about full-stack development and machine learning, and eager to grow through real-world challenges while contributing to innovative, high-impact projects. I have hands-on experience in both frontend and backend development, with expertise in React.js, Node.js, and modern databases. I'm committed to writing clean, maintainable code and creating user-friendly applications that solve real problems.
           </p>
         </motion.div>
         
@@ -32,9 +32,9 @@ const About = () => {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
-            src="/vishwas_circle_frame.png"
-            alt="Vishwas Racharla"
-            className="rounded-lg shadow-lg w-64 h-64 object-cover"
+            src="/akash profile.jpeg"
+            alt="Akash Jannu"
+            className="rounded-full shadow-lg w-64 h-64 object-cover"
           />
         </motion.div>
       </div>

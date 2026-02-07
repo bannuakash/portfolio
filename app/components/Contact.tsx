@@ -8,14 +8,14 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       label: 'Email',
-      value: 'vishwasracharla@gmail.com',
-      link: 'mailto:vishwasracharla@gmail.com',
+      value: 'akashjannu764@gmail.com',
+      link: 'mailto:akashjannu764@gmail.com',
     },
     {
       icon: <FaPhone />,
       label: 'Phone',
-      value: '+91 6302810814',
-      link: 'tel:+916302810814',
+      value: '+91 9154083240',
+      link: 'tel:+919154083240',
     },
     {
       icon: <FaMapMarkerAlt />,
@@ -25,14 +25,14 @@ const Contact = () => {
     {
       icon: <FaGithub />,
       label: 'GitHub',
-      value: 'Vishwasracharla',
-      link: 'https://github.com/Vishwasracharla',
+      value: 'akashjannu',
+      link: 'https://github.com/akashjannu',
     },
     {
       icon: <FaLinkedin />,
       label: 'LinkedIn',
-      value: 'vishwas-racharla-446aa0231',
-      link: 'https://linkedin.com/in/vishwas-racharla-446aa0231',
+      value: 'akashjannu',
+      link: 'https://linkedin.com/in/akashjannu',
     },
   ]
 
@@ -41,7 +41,7 @@ const Contact = () => {
       <section className="py-10 flex flex-col items-center">
         <h2 className="section-title mb-4">Resume</h2>
         <a
-          href="https://drive.google.com/file/d/1eT9XhziWr3ouR9RSMWvMojjr9P275kdd/view?usp=sharing"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-secondary text-white rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 mb-8"

@@ -12,7 +12,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/free-stock-photo-of-2020-wallpaper-4k.jpeg"
+          src="/wallpaper.jpeg"
           alt="Background Image"
           layout="fill"
           objectFit="cover"
@@ -31,7 +31,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg font-luckiestGuy mb-4 md:text-right"
         >
-          VISHWAS RACHARLA
+          AKASH JANNU
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-black drop-shadow-lg font-luckiestGuy md:text-right"
         >
-          FULL STACK DEVELOPER
+          FULL STACK DEVELOPER | CS ENGINEER
         </motion.h2>
       </div>
     </section>

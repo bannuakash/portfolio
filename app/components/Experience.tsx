@@ -6,49 +6,37 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 const Experience = () => {
   const education = [
     {
-      title: 'Bachelor of Technology (BTech), Computer Science Engineering',
-      institution: 'Balaji Institute of Technology and Science',
-      period: '2021 – 2025',
-      details: 'CGPA: 7.8',
-    },
-    {
-      title: 'State Board of Intermediate Education - MPC',
-      institution: 'Sri Chaitanya Junior College',
-      period: '2019 – 2021',
-      details: 'Percentage: 84.8%',
-    },
-    {
-      title: 'State Board of Secondary Education - SSC',
-      institution: 'Tejaswi High School',
-      period: '2019',
-      details: 'Percentage: 100%',
+      title: 'Bachelor of Technology (B.Tech) – Computer Science and Engineering',
+      institution: 'Balaji Institute of Technology and Science, Narsampet, Telangana',
+      period: 'Nov 2021 – Jul 2025',
+      details: 'Currently pursuing',
     },
   ]
 
   const workExperience = [
     {
-      title: 'Frontend Developer',
-      company: 'Mobius by Gaian',
-      period: 'June 2025 - Present',
-    },
-    {
-      title: 'Full Stack Developer Intern',
-      company: 'Fresher bot (propel 5000)',
-      period: '08/2024 – 05/2025',
+      title: 'Full Stack Developer',
+      company: 'Zithara.AI',
+      period: 'May 2025 - Aug 2025',
+      details: [
+        'Developed and maintained web applications using React.js and Node.js',
+        'Designed and implemented RESTful APIs',
+        'Worked with DynamoDB and PostgreSQL for data storage and manipulation',
+      ]
     },
     {
       title: 'Python Full Stack Developer',
-      company: 'EduSkills Academy & AICTE',
+      company: 'Eduskills Academy',
+      period: 'Jan 2025 – Mar 2025',
+      details: [
+        'Worked with Django and Flask frameworks',
+        'Learned frontend-backend integration and database management',
+        'Built full-stack applications with Python',
+      ]
     },
   ]
 
-  const publications = [
-    {
-      title: 'Image Caption Generator',
-      journal: 'IJFANS International Journal of Food and Nutritional Sciences, Volume 13, Issues 04, 2024 ISSN: Print 2319-1775, Online 2320-7876',
-      link: 'https://www.ijfans.org/uploads/paper/0f47744620cb8b949e2d3256602e11e4.pdf',
-    },
-  ]
+  const publications = []
 
   return (
     <section id="experience" className="py-20">
@@ -70,7 +58,17 @@ const Experience = () => {
                 </h4>
                 <p className="section-text mb-2">{exp.company}</p>
                 {exp.period && (
-                  <p className="section-text">{exp.period}</p>
+                  <p className="section-text mb-3">{exp.period}</p>
+                )}
+                {exp.details && (
+                  <ul className="space-y-2">
+                    {exp.details.map((detail, idx) => (
+                      <li key={idx} className="section-text flex items-start">
+                        <span className="mr-3">•</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
                 )}
               </div>
             ))}
@@ -98,35 +96,7 @@ const Experience = () => {
           </div>
         </motion.div>
 
-        {/* Publications */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-        >
-          <h3 className="text-2xl font-semibold mb-6 text-headingText">Publications</h3>
-          <div className="space-y-6">
-            {publications.map((pub, index) => (
-              <div key={index} className="bg-[#444444] p-4 rounded-lg">
-                <h4 className="text-xl font-semibold text-secondary mb-2">
-                  {pub.title}
-                </h4>
-                <p className="section-text mb-2">Journal/Conference: {pub.journal}</p>
-                {pub.link && (
-                  <a
-                    href={pub.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#EAEAEA] hover:text-secondary transition-colors section-text flex items-center space-x-2"
-                  >
-                    <span>View Publication</span>
-                    <FaExternalLinkAlt className="w-4 h-4" />
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        </motion.div>
+        {/* Publications removed because list is empty */}
       </div>
     </section>
   )

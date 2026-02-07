@@ -6,24 +6,16 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 const Projects = () => {
   const projects = [
     {
-      title: 'Image Caption Generator',
+      title: 'Fake Profile Identification System',
       description:
-        'Designed an image recognition model using machine learning to describe actions in pictures. Published in IJFANS International Journal, Volume 13, Issue 04, 2024.',
-      technologies: ['Machine Learning', 'Python', 'Computer Vision'],
+        'Built comprehensive machine learning models to detect fake social media profiles. Implemented Random Forest and XGBoost algorithms to analyze behavioral features and identify fraudulent accounts with high accuracy.',
+      technologies: ['Python', 'Machine Learning', 'Random Forest', 'XGBoost', 'Data Analysis'],
     },
     {
-      title: 'Shopinity – Modern E-Commerce Web App',
+      title: 'Weather Forecasting Using Machine Learning',
       description:
-        'Full-stack MERN platform with product listings, category-based browsing, cart management, and order placement.',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express'],
-      link: 'https://shopinity-ecommerce-website-v3a8-btf1z6loc.vercel.app/',
-    },
-    {
-      title: 'Personalized Gift Recommendation Platform',
-      description:
-        'MERN stack web app that uses ChatGPT to suggest personalized gifts based on user preferences through an interactive questionnaire, including product catalog and ordering features.',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'ChatGPT API'],
-      link: 'https://personalized-gift-recommendation-zithara-ai.vercel.app/',
+        'Developed a weather prediction system using multiple machine learning algorithms including Logistic Regression, Decision Tree, and KNN. Implemented feature selection and comprehensive evaluation metrics to optimize prediction accuracy.',
+      technologies: ['Python', 'Machine Learning', 'Logistic Regression', 'Decision Tree', 'KNN'],
     },
   ]
 

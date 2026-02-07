@@ -10,7 +10,7 @@ import AosInitializer from './components/AosInitializer'
 import { Dancing_Script } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: 'Vishwas Portfolio',
+  title: 'Akash Jannu - Portfolio',
   icons: {
     icon: '/favicon/android-chrome-512x512.png',
   },

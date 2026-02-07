@@ -7,17 +7,17 @@ const SocialLinks = () => {
   const socialLinks = [
     {
       icon: <FaLinkedin />,
-      url: 'https://linkedin.com/in/vishwas-racharla-446aa0231',
+      url: 'https://linkedin.com/in/akashjannu',
       label: 'LinkedIn',
     },
     {
       icon: <FaGithub />,
-      url: 'https://github.com/Vishwasracharla',
+      url: 'https://github.com/akashjannu',
       label: 'GitHub',
     },
     {
       icon: <FaInstagram />,
-      url: 'https://www.instagram.com/vishwas_racharla/',
+      url: 'https://www.instagram.com/akash__jannu/',
       label: 'Instagram',
     },
   ];

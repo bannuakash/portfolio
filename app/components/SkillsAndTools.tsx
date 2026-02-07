@@ -9,23 +9,23 @@ import { motion } from 'framer-motion'
 
 const SkillsAndTools = () => {
   const technicalSkills = [
-    { name: 'C', fileName: 'c_lan.jpg' },
     { name: 'Python', fileName: 'python_logo.png' },
-    { name: 'MySQL', fileName: 'my_sql_logo.png' },
-    { name: 'HTML', fileName: 'html_logo.png' },
-    { name: 'React.js', fileName: 'react_logo.jpg' },
-    { name: 'MongoDB', fileName: 'mongo_db.png' },
-    { name: 'Java', fileName: 'java_logo.png' },
-    { name: 'CSS', fileName: 'css_logo.png' },
-    { name: 'Tailwind CSS', fileName: 'tailwind_css.png' },
     { name: 'JavaScript', fileName: 'js_logo.png' },
+    { name: 'HTML', fileName: 'html_logo.png' },
+    { name: 'CSS', fileName: 'css_logo.png' },
+    { name: 'React.js', fileName: 'react_logo.jpg' },
+    { name: 'MySQL', fileName: 'my_sql_logo.png' },
+    { name: 'MongoDB', fileName: 'mongo_db.png' },
+    { name: 'C', fileName: 'c_lan.jpg' },
+    { name: 'Java', fileName: 'java_logo.png' },
+    { name: 'Tailwind CSS', fileName: 'tailwind_css.png' },
   ];
 
   const tools = [
-    { name: 'VS Code', fileName: 'vs_code_logo.png' },
+    { name: 'Git', fileName: 'git__logo.png' },
     { name: 'GitHub', fileName: 'github_logo.png' },
     { name: 'Cursor', fileName: 'cursor.png' },
-    // Add other relevant tool images here if needed
+    { name: 'Postman', fileName: 'postman.png' },
   ];
 
   return (

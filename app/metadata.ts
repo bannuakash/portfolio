@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Racharla Vishwas - Portfolio',
-  description: 'Personal portfolio website of Racharla Vishwas - Computer Science Student and Developer',
+  title: 'Akash Jannu - Portfolio',
+  description: 'Personal portfolio website of Akash Jannu - Full Stack Developer and Computer Science Engineer',
 } 
