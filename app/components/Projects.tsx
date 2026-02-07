@@ -31,21 +31,9 @@ const Projects = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="card"
           >
-            <div className="flex justify-between items-start mb-4">
-              <h3 className="text-xl font-semibold text-secondary">
-                {project.title}
-              </h3>
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-textSecondary hover:text-secondary transition-colors"
-                >
-                  <FaExternalLinkAlt className="w-5 h-5" />
-                </a>
-              )}
-            </div>
+            <h3 className="text-xl font-semibold text-secondary mb-4">
+              {project.title}
+            </h3>
             <p className="section-text mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech, techIndex) => (
